@@ -8,22 +8,22 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="#welcome-section" class="nav-link">
+            <a href="#welcome-section" className="nav-link">
               Hello
             </a>
           </li>
           <li>
-            <a href="#technologies" class="nav-link">
+            <a href="#technologies" className="nav-link">
               Technologies
             </a>
           </li>
           <li>
-            <a href="#projects" class="nav-link">
+            <a href="#projects" className="nav-link">
               Projects
             </a>
           </li>
           <li>
-            <a href="#certifications" class="nav-link">
+            <a href="#certifications" className="nav-link">
               Certifications
             </a>
           </li>
