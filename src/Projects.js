@@ -12,6 +12,7 @@ export default function Projects() {
             href="https://gifted-tereshkova-4aa25e.netlify.app/"
             className="project-tile"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button>Weather App (Vanilla JS)</button>
           </a>
@@ -20,6 +21,7 @@ export default function Projects() {
             href="https://ecstatic-leakey-e874b0.netlify.app/"
             className="project-tile"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button>Tarot Card Drawer</button>
           </a>
@@ -27,6 +29,7 @@ export default function Projects() {
             href="https://codepen.io/SamJamWillingham/full/YzqLBNO"
             className="project-tile"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button>Technical Documentation Webpage</button>
           </a>

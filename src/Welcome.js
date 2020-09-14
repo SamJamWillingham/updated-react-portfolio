@@ -16,21 +16,31 @@ export default function Welcome() {
         <a
           href="https://www.linkedin.com/in/samantha-willingham-79576a1a8/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <button>LinkedIn</button>
         </a>
 
-        <a href="https://github.com/SamJamWillingham" target="_blank">
+        <a
+          href="https://github.com/SamJamWillingham"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button>GitHub</button>
         </a>
 
         <a
           href="https://www.shecodes.io/students/174-sam-fields"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <button>SheCodes</button>
         </a>
-        <a href="https://www.freecodecamp.org/samjamwillingham">
+        <a
+          href="https://www.freecodecamp.org/samjamwillingham"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button>freeCodeCamp</button>
         </a>
       </div>
