@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 
 export default function Projects() {
   return (
@@ -9,7 +10,7 @@ export default function Projects() {
         <nav id="projectsbar">
           <a
             href="https://gifted-tereshkova-4aa25e.netlify.app/"
-            class="project-tile"
+            className="project-tile"
             target="_blank"
           >
             <button>Weather App (Vanilla JS)</button>
@@ -17,19 +18,17 @@ export default function Projects() {
 
           <a
             href="https://ecstatic-leakey-e874b0.netlify.app/"
-            class="project-tile"
+            className="project-tile"
             target="_blank"
           >
             <button>Tarot Card Drawer</button>
           </a>
-
           <a
-            href="https://github.com/SamJamWillingham"
-            class="project-tile"
+            href="https://codepen.io/SamJamWillingham/full/YzqLBNO"
+            className="project-tile"
             target="_blank"
-            id="profile-link"
           >
-            <button>GitHub</button>
+            <button>Technical Documentation Webpage</button>
           </a>
         </nav>
       </div>
