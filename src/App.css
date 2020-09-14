@@ -1,1 +1,31 @@
+@media only screen and (max-width: 800px) {
+  header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
 
+    z-index: 5;
+  }
+}
+
+button {
+  display: inline;
+  margin: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2vw;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: #000000;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: black;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: -4px 4px 0px #00bcd4, -6px 6px 0px #b2ebf2, -8px 8px 0px #ff5722,
+    -10px 10px 0px #dd2c00;
+  cursor: pointer;
+  text-decoration: none;
+}
