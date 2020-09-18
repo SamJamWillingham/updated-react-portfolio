@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects">
       <h3>Projects</h3>
 
-      <div class="projects-grid">
+      <div className="projects-grid">
         <nav id="projectsbar">
           <a
             href="https://gifted-tereshkova-4aa25e.netlify.app/"
