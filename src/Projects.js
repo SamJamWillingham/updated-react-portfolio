@@ -29,7 +29,9 @@ export default function Projects() {
           <h4>Tarot Card Drawer</h4>
           <p>
             I created this small widget as a side project for fun to practice
-            HTML, CSS, and JS.
+            HTML, CSS, and JS. It uses vanilla javascript to select a random
+            card and show you an interpretation of the cards meaning and it's
+            advice.
           </p>
           <a
             href="https://ecstatic-leakey-e874b0.netlify.app/"
