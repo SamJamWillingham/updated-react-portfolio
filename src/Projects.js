@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import "./App.css";
 
 export default function Projects() {
   return (
@@ -7,6 +8,7 @@ export default function Projects() {
       <h3>Projects</h3>
       <div className="project-flex">
         <div className="card">
+          <i class="fas fa-cloud-sun"></i>
           <h4>Vanilla JS Weather App</h4>
           <p>
             I created this app during the SheCodes Front End Development
@@ -23,6 +25,7 @@ export default function Projects() {
           </a>
         </div>
         <div className="card">
+          <i class="fas fa-hand-sparkles"></i>
           <h4>Tarot Card Drawer</h4>
           <p>
             I created this small widget as a side project for fun to practice
@@ -37,6 +40,7 @@ export default function Projects() {
           </a>
         </div>
         <div className="card">
+          <i class="fab fa-react projects"></i>
           <h4>React Weather App</h4>
           <p>
             I created this app during the SheCodes React Development workshop.

@@ -16,7 +16,8 @@ header {
 }
 ul {
   list-style: none;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bungee Inline", cursive;
+  font-weight: 50px;
 }
 
 li {
@@ -29,28 +30,13 @@ a {
   color: black;
   font-size: 2vw;
 }
-a:hover {
-  text-shadow: -2px 2px 0px #00bcd4, -4px 4px 0px #ff5722;
+
+a.hello:hover,
+a.projects:hover {
+  text-shadow: -2px 2px 0px #00dbde;
 }
 
-button {
-  display: inline;
-  margin: 15px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 2vw;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background: #000000;
-  padding: 10px 15px 10px 15px;
-  border-radius: 8px;
-}
-
-button:hover {
-  color: black;
-  background: #ffffff;
-  border: 1px solid #000000;
-  box-shadow: -4px 4px 0px #00bcd4, -6px 6px 0px #b2ebf2, -8px 8px 0px #ff5722,
-    -10px 10px 0px #dd2c00;
-  cursor: pointer;
-  text-decoration: none;
+a.tech:hover,
+a.certs:hover {
+  text-shadow: -2px 2px 0px #fc00ff;
 }

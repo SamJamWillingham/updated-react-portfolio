@@ -18,7 +18,9 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>LinkedIn</button>
+          <button>
+            <i class="fab fa-linkedin-in social"></i>
+          </button>
         </a>
 
         <a
@@ -26,7 +28,9 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>GitHub</button>
+          <button>
+            <i class="fab fa-github social"></i>
+          </button>
         </a>
 
         <a
@@ -34,14 +38,18 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>SheCodes</button>
+          <button>
+            <i class="fas fa-laptop-code social"></i>
+          </button>
         </a>
         <a
           href="https://www.freecodecamp.org/samjamwillingham"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>freeCodeCamp</button>
+          <button>
+            <i class="fab fa-free-code-camp social"></i>
+          </button>
         </a>
       </div>
     </div>

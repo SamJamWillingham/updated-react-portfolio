@@ -1,5 +1,6 @@
 import React from "react";
 import "./Certifications.css";
+import "./App.css";
 
 export default function Certifications() {
   return (
@@ -32,7 +33,7 @@ export default function Certifications() {
       <a href="https://www.freecodecamp.org/certification/samjamwillingham/responsive-web-design">
         <button>
           <i class="fab fa-free-code-camp"></i>
-          view cetifications in freeCodeCamp
+          view certifications in freeCodeCamp
         </button>
       </a>
     </section>

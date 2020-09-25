@@ -1,18 +1,18 @@
 #projects h3 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 4vw;
-  color: white;
+  font-family: "Bungee Inline", cursive;
+  font-size: 3.5vw;
+  color: black;
   margin: 20px;
 }
 #projects {
-  background-color: black;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   display: block;
   align-items: center;
   width: 100%;
-  height: 600px;
+  height: 540px;
   text-align: center;
 
-  padding-top: 20px;
+  padding-top: 15px;
   z-index: 2;
 }
 .project-flex {
@@ -20,12 +20,26 @@
 }
 
 .card {
-  border: 1px solid black;
+  border: 2px solid black;
+  box-shadow: -5px 5px 0px black;
   background-color: white;
-  border-radius: 10px;
-  max-width: 300px;
+  font-family: monospace;
+  max-width: 260px;
   display: inline;
   flex: 1;
   align-items: center;
   margin: 10px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h4 {
+  font-family: monospace;
+  font-size: 2vw;
+}
+i.fas.fa-cloud-sun,
+i.fas.fa-hand-sparkles,
+i.fab.fa-react.projects {
+  position: relative;
+  color: black;
+  font-size: 8vw;
 }

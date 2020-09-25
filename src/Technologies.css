@@ -6,8 +6,8 @@
 }
 
 #technologies h3 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 4vw;
+  font-family: "Bungee Inline", cursive;
+  font-size: 3.5vw;
   color: black;
 }
 .badge {
@@ -76,7 +76,7 @@ i.fab,
   margin-left: -55px;
   height: 15px;
   font-size: 18px;
-  font-family: "Bebas Neue", cursive;
+  font-family: monospace;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
