@@ -3,38 +3,55 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <div id="projects">
       <h3>Projects</h3>
-
-      <div className="projects-grid">
-        <nav id="projectsbar">
+      <div className="project-flex">
+        <div className="card">
+          <h4>Vanilla JS Weather App</h4>
+          <p>
+            I created this app during the SheCodes Front End Development
+            workshop. It uses vanilla javascript to call an API for current
+            weather data. Styling was done with CSS and Bootstrap.
+          </p>
           <a
             href="https://gifted-tereshkova-4aa25e.netlify.app/"
-            className="project-tile"
+            className="cta"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Weather App (Vanilla JS)</button>
+            <button>View Project</button>
           </a>
-
+        </div>
+        <div className="card">
+          <h4>Tarot Card Drawer</h4>
+          <p>
+            I created this small widget as a side project for fun to practice
+            HTML, CSS, and JS.
+          </p>
           <a
             href="https://ecstatic-leakey-e874b0.netlify.app/"
-            className="project-tile"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Tarot Card Drawer</button>
+            <button>View Project</button>
           </a>
+        </div>
+        <div className="card">
+          <h4>React Weather App</h4>
+          <p>
+            I created this app during the SheCodes React Development workshop.
+            It uses React and JSX to call an API for current weather data.
+            Animated styling was done with CSS and React-Bootstrap.
+          </p>
           <a
-            href="https://codepen.io/SamJamWillingham/full/YzqLBNO"
-            className="project-tile"
+            href="https://clever-hugle-333d69.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Technical Documentation Webpage</button>
+            <button>View Project</button>
           </a>
-        </nav>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -2,15 +2,30 @@
   font-family: "Bebas Neue", cursive;
   font-size: 4vw;
   color: white;
+  margin: 20px;
 }
 #projects {
   background-color: black;
   display: block;
   align-items: center;
   width: 100%;
-  height: 400px;
+  height: 600px;
   text-align: center;
 
-  padding-top: 40px;
+  padding-top: 20px;
   z-index: 2;
+}
+.project-flex {
+  display: flex;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 300px;
+  display: inline;
+  flex: 1;
+  align-items: center;
+  margin: 10px auto;
 }
