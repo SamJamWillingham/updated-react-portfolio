@@ -39,7 +39,8 @@ h4 {
 }
 i.fas.fa-cloud-sun,
 i.fas.fa-hand-sparkles,
-i.fab.fa-react.projects {
+i.fab.fa-react.projects,
+i.fas.fa-clock {
   position: relative;
   color: black;
   font-size: 8vw;

@@ -57,6 +57,23 @@ export default function Projects() {
             <button>View Project</button>
           </a>
         </div>
+        <div className="card">
+          <i className="fas fa-clock"></i>
+          <h4>JavScript Analog Clock</h4>
+          <p>
+            I created this clock app during JavaScript 30 Day Challenge with Wes
+            Bos. It uses JavaScript to access the current time and display it
+            through moving hour, minute, second hands. Animated styling was done
+            with CSS.
+          </p>
+          <a
+            href="https://mystifying-northcutt-420845.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>View Project</button>
+          </a>
+        </div>
       </div>
     </div>
   );
