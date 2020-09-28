@@ -10,7 +10,7 @@ export default function Certifications() {
         <img
           src="https://s3.amazonaws.com/shecodesio-production/students/certificates/000/008/403/original/result.png?1594837766"
           alt="Introduction to Coding Certificate"
-          width={300}
+          width={360}
           id="certImg"
         />
       </a>
@@ -18,7 +18,7 @@ export default function Certifications() {
         <img
           src="https://s3.amazonaws.com/shecodesio-production/students/certificates/000/009/110/original/result.png?1597756708"
           alt="Front End Development"
-          width={300}
+          width={360}
           id="certImg"
         />
       </a>
@@ -26,7 +26,7 @@ export default function Certifications() {
         <img
           src="https://s3.amazonaws.com/shecodesio-production/students/certificates/000/011/119/original/result.png?1601044095"
           alt="React Development"
-          width={300}
+          width={360}
           id="certImg"
         />
       </a>
