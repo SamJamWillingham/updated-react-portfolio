@@ -75,6 +75,14 @@ export default function Projects() {
           </a>
         </div>
       </div>
+      <a href="https://dazzling-perlman-5655fe.netlify.app/">
+        <button>
+          <small>
+            Want to see more projects? See my progress on the Javascript 30 Day
+            Challenge from Wes Bos
+          </small>
+        </button>
+      </a>
     </div>
   );
 }
