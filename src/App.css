@@ -1,9 +1,8 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 375px) {
   header {
     position: absolute;
     top: 0px;
     width: 100%;
-
     z-index: 5;
   }
 }

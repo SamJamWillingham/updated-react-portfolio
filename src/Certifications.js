@@ -32,7 +32,7 @@ export default function Certifications() {
       </a>
       <a href="https://www.freecodecamp.org/certification/samjamwillingham/responsive-web-design">
         <button>
-          <i class="fab fa-free-code-camp"></i>
+          <i className="fab fa-free-code-camp"></i>
           view certifications in freeCodeCamp
         </button>
       </a>

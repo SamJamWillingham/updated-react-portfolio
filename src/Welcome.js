@@ -19,7 +19,7 @@ export default function Welcome() {
           rel="noopener noreferrer"
         >
           <button>
-            <i class="fab fa-linkedin-in social"></i>
+            <i className="fab fa-linkedin-in social"></i>
           </button>
         </a>
 
@@ -29,7 +29,7 @@ export default function Welcome() {
           rel="noopener noreferrer"
         >
           <button>
-            <i class="fab fa-github social"></i>
+            <i className="fab fa-github social"></i>
           </button>
         </a>
 
@@ -39,7 +39,7 @@ export default function Welcome() {
           rel="noopener noreferrer"
         >
           <button>
-            <i class="fas fa-laptop-code social"></i>
+            <i className="fas fa-laptop-code social"></i>
           </button>
         </a>
         <a
@@ -48,7 +48,7 @@ export default function Welcome() {
           rel="noopener noreferrer"
         >
           <button>
-            <i class="fab fa-free-code-camp social"></i>
+            <i className="fab fa-free-code-camp social"></i>
           </button>
         </a>
       </div>
