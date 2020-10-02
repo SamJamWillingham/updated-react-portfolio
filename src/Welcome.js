@@ -11,15 +11,18 @@ export default function Welcome() {
       />
       <div className="profile flexbox-item flexbox-item-2">
         <h1>Sam Willingham</h1>
-        <h3>Front End Web Developer</h3>
+        <h3>
+          Front End Web Developer
+          <br /> Charlotte, NC, US
+        </h3>
 
         <a
           href="https://www.linkedin.com/in/samantha-willingham-79576a1a8/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>
-            <i className="fab fa-linkedin-in social"></i>
+          <button className="social">
+            <i className="fab fa-linkedin-in"></i>
           </button>
         </a>
 
@@ -28,8 +31,8 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>
-            <i className="fab fa-github social"></i>
+          <button className="social">
+            <i className="fab fa-github"></i>
           </button>
         </a>
 
@@ -38,8 +41,8 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>
-            <i className="fas fa-laptop-code social"></i>
+          <button className="social">
+            <i className="fas fa-laptop-code"></i>
           </button>
         </a>
         <a
@@ -47,8 +50,8 @@ export default function Welcome() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>
-            <i className="fab fa-free-code-camp social"></i>
+          <button className="social">
+            <i className="fab fa-free-code-camp"></i>
           </button>
         </a>
       </div>

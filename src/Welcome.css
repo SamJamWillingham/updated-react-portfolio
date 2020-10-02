@@ -1,6 +1,6 @@
 .flexbox-container {
   display: flex;
-  margin-top: 150px;
+  margin-top: 120px;
   max-height: 440px;
   max-width: 100%;
 }
@@ -30,7 +30,21 @@
 }
 
 #welcome-section h3 {
-  font-size: 3.5vw;
+  font-size: 2.4vw;
   font-family: "Bungee Inline", cursive;
   color: black;
+}
+i.fab.fa-linkedin-in,
+i.fab.fa-github,
+i.fas.fa-laptop-code,
+i.fab.fa-free-code-camp {
+  font-size: 3vw;
+  padding: 5px;
+}
+
+button.social {
+  padding: 7px;
+}
+button.social:hover {
+  padding: 10px;
 }
