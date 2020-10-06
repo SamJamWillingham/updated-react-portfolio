@@ -4,6 +4,10 @@ import "./Welcome.css";
 export default function Welcome() {
   return (
     <div id="welcome-section" className="flexbox-container">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+
       <img
         src="https://lh3.googleusercontent.com/pw/ACtC-3fZYATs1PvtEXnoJcwO-th2ldfb2s4bSLqUX-O8wXK-DVDc-xiy6x9mLd9qV1zwbe9lC5akeJxmtJfL0M8Np6D5VolbnFsu5qFCRbxan1eKAU4VAupjdmTQz8V19Gu4IgXexcXbL2zuJthpTjxC3kiG=w502-h669-no?authuser=0"
         alt="Sam"

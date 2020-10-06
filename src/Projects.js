@@ -6,6 +6,9 @@ import ViewProjectBtns from "./ViewProjectBtns";
 export default function Projects() {
   return (
     <div id="projects">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
       <h3>Projects</h3>
       <div className="project-flex">
         <div className="card">

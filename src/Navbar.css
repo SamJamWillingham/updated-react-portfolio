@@ -36,10 +36,10 @@ a {
 
 a.hello:hover,
 a.projects:hover {
-  text-shadow: -2px 2px 0px #00dbde;
+  text-shadow: -2px 2px 0px #6c3;
 }
 
 a.tech:hover,
 a.certs:hover {
-  text-shadow: -2px 2px 0px #fc00ff;
+  text-shadow: -2px 2px 0px #09f;
 }
