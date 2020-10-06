@@ -7,12 +7,14 @@ export default function Welcome() {
       <div class="bg"></div>
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>
+      <div className="profile flexbox-item flexbox-item-1">
+        <img
+          src="https://lh3.googleusercontent.com/pw/ACtC-3e9frAHTo_pOrKK-oAAkhVKC-9aIsCyunEuZ_DJm1nzHDq6b6GOy5vWdeZINZxo0eyESSCVFVGgZij0D-xqP-iDSte8KnByLMUAQo1fQ7KSJ3NnY_lVbsP-qwknrlOQgXIxIzpd_k7Ef3l-_h8bkHta=w714-h643-no?authuser=0"
+          alt="Sam"
+          className="profile"
+        />
+      </div>
 
-      <img
-        src="https://lh3.googleusercontent.com/pw/ACtC-3fZYATs1PvtEXnoJcwO-th2ldfb2s4bSLqUX-O8wXK-DVDc-xiy6x9mLd9qV1zwbe9lC5akeJxmtJfL0M8Np6D5VolbnFsu5qFCRbxan1eKAU4VAupjdmTQz8V19Gu4IgXexcXbL2zuJthpTjxC3kiG=w502-h669-no?authuser=0"
-        alt="Sam"
-        className="profile flexbox-item flexbox-item-1"
-      />
       <div className="profile flexbox-item flexbox-item-2">
         <h1>Sam Willingham</h1>
         <h3>
