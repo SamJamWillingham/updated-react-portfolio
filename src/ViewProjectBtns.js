@@ -1,6 +1,4 @@
 import React from "react";
-import "./Projects.css";
-import "./App.css";
 
 export default function ViewProjectBtns(props) {
   return (
