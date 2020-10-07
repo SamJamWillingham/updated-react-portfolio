@@ -64,20 +64,20 @@ export default function Projects() {
           />
         </div>
         <div className="card">
-          <i className="fas fa-clock"></i>
-          <h4>JavScript Analog Clock</h4>
+          <i class="fas fa-om"></i>
+          <h4>Meditation App</h4>
           <p>
-            I created this clock app during JavaScript 30 Day Challenge with Wes
-            Bos. It uses JavaScript to access the current time and display it
-            through moving hour, minute, second hands. Animated styling was done
-            with CSS.
+            I created this Meditation timer with Dev Ed. It uses vanilla
+            JavaScript to animate a timer, count down different set amounts of
+            time, and change the audio track between two different ambient
+            sounds.
           </p>
           <ViewProjectBtns
-            link="https://mystifying-northcutt-420845.netlify.app/"
+            link="https://lucid-clarke-3b55e8.netlify.app/"
             buttonName="App"
           />
           <ViewProjectBtns
-            link="https://github.com/SamJamWillingham/Analog-Clock--JS-30-day-Challenge"
+            link="https://github.com/SamJamWillingham/Meditation-App"
             buttonName="Code"
           />
         </div>
