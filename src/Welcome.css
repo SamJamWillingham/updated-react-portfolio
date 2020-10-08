@@ -11,15 +11,6 @@
   max-height: 100%;
 }
 
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 4s;
-}
-
-.bg3 {
-  animation-duration: 5s;
-}
-
 @keyframes slide {
   0% {
     transform: translateX(-25%);
@@ -37,8 +28,6 @@
   z-index: 4;
 }
 .flexbox-item-1 {
-  flex: 1;
-  border-radius: 50%;
   max-width: 300px;
   max-height: 280px;
 }
@@ -53,7 +42,6 @@ img.profile {
   padding-top: 10px;
   padding-bottom: 50px;
   text-align: center;
-  flex: 1;
 }
 
 #welcome-section h1 {

@@ -6,9 +6,9 @@ import ViewProjectBtns from "./ViewProjectBtns";
 export default function Projects() {
   return (
     <div id="projects">
-      <div class="bg"></div>
-      <div class="bg bg2"></div>
-      <div class="bg bg3"></div>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
       <h3>Projects</h3>
       <div className="project-flex">
         <div className="card">
@@ -64,7 +64,7 @@ export default function Projects() {
           />
         </div>
         <div className="card">
-          <i class="fas fa-om"></i>
+          <i className="fas fa-om"></i>
           <h4>Meditation App</h4>
           <p>
             I created this Meditation timer with Dev Ed. It uses vanilla

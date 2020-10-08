@@ -4,16 +4,9 @@ import "./Welcome.css";
 export default function Welcome() {
   return (
     <div id="welcome-section" className="flexbox-container">
-      <div class="bg"></div>
-      <div class="bg bg2"></div>
-      <div class="bg bg3"></div>
-      <div className="profile flexbox-item flexbox-item-1">
-        <img
-          src="https://lh3.googleusercontent.com/pw/ACtC-3e9frAHTo_pOrKK-oAAkhVKC-9aIsCyunEuZ_DJm1nzHDq6b6GOy5vWdeZINZxo0eyESSCVFVGgZij0D-xqP-iDSte8KnByLMUAQo1fQ7KSJ3NnY_lVbsP-qwknrlOQgXIxIzpd_k7Ef3l-_h8bkHta=w714-h643-no?authuser=0"
-          alt="Sam"
-          className="profile"
-        />
-      </div>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
 
       <div className="profile flexbox-item flexbox-item-2">
         <h1>Sam Willingham</h1>
