@@ -1,26 +1,36 @@
-#brand {
-  font-family: "Bungee Shade", cursive;
-  color: black;
-  font-size: 3vw;
-  margin-left: 20px;
-}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   width: 100%;
+  min-height: 80px; /*Added height. If height is not defined, browsers can mess up trying to guess what the height is */
   background-color: white;
   z-index: 12;
 }
+#brand {
+  font-family: "Bungee Shade", cursive;
+  color: black;
+  font-size: 3vw;
+  padding: 40px 0;
+  margin: 20px;
+}
+
+nav {
+  padding-left: 20px;
+}
+
 ul {
   list-style: none;
   font-family: "Bungee Inline", cursive;
   font-weight: 50px;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -42,4 +52,36 @@ a.projects:hover {
 a.tech:hover,
 a.certs:hover {
   text-shadow: -2px 2px 0px #09f;
+}
+
+button {
+  display: inline;
+  margin: 15px;
+  font-family: monospace;
+  font-size: 1.6vw;
+  color: black;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+
+button:hover {
+  background: #ffffff;
+  padding: 15px 20px;
+  transition: all 0.4s ease;
+  box-shadow: -5px 5px 0px black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Moved @media from App to a corresponding component and places at the end for making sure it will not be overwritten by regular rules */
+@media only screen and (max-width: 580px) {
+  #brand {
+    padding: 10px 0;
+  }
+
+  /* Will wrap buttons to a new line when screen is small */
+  ul {
+    flex-wrap: wrap;
+  }
 }
