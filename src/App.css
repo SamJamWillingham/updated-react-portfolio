@@ -1,3 +1,13 @@
+/* 
+Different browser has different margin and padding
+This is a small procection - reset to make sure all sigin will be controlled by developer
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 375px) {
   header {
     position: absolute;
@@ -5,6 +15,15 @@
     width: 100%;
     z-index: 5;
   }
+}
+
+html, 
+body, 
+#root {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 
 button {
