@@ -8,15 +8,6 @@ This is a small procection - reset to make sure all sigin will be controlled by 
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 375px) {
-  header {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    z-index: 5;
-  }
-}
-
 html, 
 body, 
 #root {
@@ -24,6 +15,7 @@ body,
   top: 0;
   width: 100%;
   min-height: 100vh;
+  background-color: aquamarine;
 }
 
 button {
