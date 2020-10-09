@@ -4,7 +4,6 @@ header {
   align-items: center;
   position: fixed;
   top: 0px;
-  /* padding-bottom: 5px; */
   width: 100%;
   min-height: 80px; /*Added height. If height is not defined, browsers can mess up trying to guess what the height is */
   background-color: white;
