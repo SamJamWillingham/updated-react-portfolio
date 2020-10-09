@@ -17,23 +17,3 @@ body,
   min-height: 100vh;
   background-color: aquamarine;
 }
-
-button {
-  display: inline;
-  margin: 15px;
-  font-family: monospace;
-  font-size: 1.6vw;
-  color: black;
-  border: 2px solid black;
-  background-color: transparent;
-  padding: 10px 15px 10px 15px;
-}
-
-button:hover {
-  background: #ffffff;
-  padding: 15px 20px 15px 20px;
-  transition: all 0.4s ease;
-  box-shadow: -5px 5px 0px black;
-  cursor: pointer;
-  text-decoration: none;
-}
