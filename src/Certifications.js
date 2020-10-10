@@ -5,7 +5,7 @@ import "./App.css";
 export default function Certifications() {
   return (
     <section id="certifications">
-      <h3>Certifications</h3>
+      <h2>Certifications</h2>
       <div id="certificate-container">
         <a href="https://www.shecodes.io/certificates/cb0ef7f22d93dfdb629e6f97198482b4">
           <img

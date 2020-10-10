@@ -1,13 +1,6 @@
-h2 {
+h3 {
   font-family: monospace;
   margin: 15px;
-}
-
-#projects h3 {
-  font-family: "Bungee Inline", cursive;
-  font-size: 3.5vw;
-  color: black;
-  margin: 60px;
 }
 
 #projects-container {

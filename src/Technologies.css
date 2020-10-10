@@ -8,13 +8,6 @@
   z-index: 4;
 }
 
-#technologies h3 {
-  font-family: "Bungee Inline", cursive;
-  margin: 60px;
-  font-size: 3.5vw;
-  color: black;
-}
-
 .badge {
   position: relative;
   margin: 40px;

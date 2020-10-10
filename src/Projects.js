@@ -11,11 +11,11 @@ export default function Projects() {
       <div className="bg bg2"></div>
       <div className="bg bg3"></div>
       <div id="projects-container">
-        <h3>Projects</h3>
+        <h2>Projects</h2>
         <div className="project-flex">
           <div className="card">
             <i className="fas fa-cloud-sun"></i>
-            <h2>Vanilla JS Weather App</h2>
+            <h3>Vanilla JS Weather App</h3>
             <p>
               I created this app during the SheCodes Front End Development
               workshop. It uses vanilla javascript to call an OpenWeather API for
@@ -34,7 +34,7 @@ export default function Projects() {
           </div>
           <div className="card">
             <i className="fas fa-hand-sparkles"></i>
-            <h2>Tarot Card Drawer</h2>
+            <h3>Tarot Card Drawer</h3>
             <p>
               I created this small widget as a side project for fun to practice
               HTML, CSS, and JS. It uses vanilla javascript to select a random
@@ -54,7 +54,7 @@ export default function Projects() {
           </div>
           <div className="card">
             <i className="fab fa-react projects"></i>
-            <h2>React Weather App</h2>
+            <h3>React Weather App</h3>
             <p>
               I created this app during the SheCodes React Development workshop.
               It uses React and JSX to call an API for current weather data.
@@ -73,7 +73,7 @@ export default function Projects() {
           </div>
           <div className="card">
             <i className="fas fa-om"></i>
-            <h2>Meditation App</h2>
+            <h3>Meditation App</h3>
             <p>
               I created this Meditation timer with Dev Ed. It uses vanilla
               JavaScript to animate a timer, count down different set amounts of

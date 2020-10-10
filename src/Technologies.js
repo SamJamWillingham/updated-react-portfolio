@@ -4,7 +4,7 @@ import "./Technologies.css";
 export default function Technologies() {
   return (
     <section id="technologies" className="main-wrapper">
-      <h3>Technologies</h3>
+      <h2>Technologies</h2>
 
       <div className="badge yellow">
         <div className="circle">

@@ -10,13 +10,6 @@
   padding-bottom: 40px;
 }
 
-#certifications h3 {
-  font-family: "Bungee Inline", cursive;
-  font-size: 3.5vw;
-  color: black;
-  margin: 60px;
-}
-
 #certificate-container {
   display: flex;
   justify-content: center;
