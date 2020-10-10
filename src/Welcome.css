@@ -1,3 +1,12 @@
+.flexbox-container,
+.flexbox-item-2,
+#button-container,
+button.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #name h1,
 #title-location
  {
@@ -6,9 +15,6 @@
 
 .flexbox-container {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   margin-top: 180px;
   height: 500px;
@@ -52,10 +58,7 @@ img.profile {
 .flexbox-item-2 {
   height: 500px;
   text-align: center;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 } 
 
 #welcome-section h1 {
@@ -72,9 +75,6 @@ img.profile {
 }
 
 #button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
 }
 
@@ -91,9 +91,6 @@ button.social {
   padding: 7px;
   height: 3em;
   width: 3em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button.social:hover {
