@@ -1,5 +1,6 @@
 import React from "react";
 import "./Welcome.css";
+import "./BackgroundAnimation.css";
 
 export default function Welcome() {
   return (

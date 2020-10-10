@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import "./App.css";
+import "./BackgroundAnimation.css";
 import ViewProjectBtns from "./ViewProjectBtns";
 
 export default function Projects() {
