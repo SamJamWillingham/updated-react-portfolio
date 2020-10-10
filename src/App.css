@@ -1,6 +1,6 @@
 /* 
 Different browser has different margin and padding
-This is a small procection - reset to make sure all sigin will be controlled by developer
+This is a small protection - reset to make sure all rules will be controlled by a developer
 */
 * {
   margin: 0;
@@ -9,11 +9,14 @@ This is a small procection - reset to make sure all sigin will be controlled by 
 }
 
 html, 
-body, 
-#root {
-  position: absolute;
-  top: 0;
+body {
   width: 100%;
-  min-height: 100vh;
-  background-color: aquamarine;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
