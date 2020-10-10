@@ -59,7 +59,6 @@ export default function Welcome() {
           </button>
         </a>
         </div>
-
       </div>
     </div>
   );
