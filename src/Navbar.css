@@ -5,9 +5,9 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
-  min-height: 80px; /*Added height. If height is not defined, browsers can mess up trying to guess what the height is */
+  max-height: 180px;
   background-color: white;
-  z-index: 12;
+  z-index: 5;
 }
 #brand {
   font-family: "Bungee Shade", cursive;
@@ -82,5 +82,12 @@ button:hover {
   /* Will wrap buttons to a new line when screen is small */
   ul {
     flex-wrap: wrap;
+  }
+}
+
+/* Mobile rules for horizontal position of a display */
+@media only screen and (max-height: 500px) {
+  #brand {
+    padding: 10px 0;
   }
 }
