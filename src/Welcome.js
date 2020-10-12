@@ -1,5 +1,6 @@
 import React from "react";
 import "./Welcome.css";
+import "./BackgroundAnimation.css";
 
 export default function Welcome() {
   return (
@@ -9,12 +10,17 @@ export default function Welcome() {
       <div className="bg bg3"></div>
 
       <div className="profile flexbox-item flexbox-item-2">
-        <h1>Sam Willingham</h1>
-        <h3>
-          Front End Web Developer
-          <br /> Charlotte, NC, US
-        </h3>
+        <div id="name">
+          <h1>Sam Willingham</h1>
+          <div id="title-location">
+            <h3>
+              Front End Web Developer
+            </h3>
+            <h3>Charlotte, NC, US</h3>
+          </div>
+        </div>
 
+        <div id="button-container">
         <a
           href="https://www.linkedin.com/in/samantha-willingham-79576a1a8/"
           target="_blank"
@@ -53,6 +59,7 @@ export default function Welcome() {
             <i className="fab fa-free-code-camp"></i>
           </button>
         </a>
+        </div>
       </div>
     </div>
   );
