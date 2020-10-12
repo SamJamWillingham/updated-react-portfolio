@@ -1,6 +1,7 @@
 h3 {
-  font-family: monospace;
-  margin: 15px;
+  font-family: "Patrick Hand SC", cursive;
+  margin: 10px;
+  font-size: 1.5em;
 }
 
 #projects-container {
@@ -27,8 +28,7 @@ h3 {
   border: 2px solid black;
   box-shadow: -5px 5px 0px black;
   background-color: white;
-  font-family: monospace;
-  width: 280px;
+  width: 260px;
   margin: 10px 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -45,16 +45,31 @@ i.fas.fa-om {
 }
 
 #project-button-container {
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover #project-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  opacity: 1;
+  max-height: 100px;
 }
 
 @media only screen and (max-width: 950px) {
   #project-button-container {
-    height: 100px;
-    flex-direction: row;
+    height: 90px;
+    flex-direction: column;
   }
 }

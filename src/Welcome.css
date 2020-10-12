@@ -8,48 +8,40 @@ button.social {
 }
 
 #name h1,
-#title-location
- {
+#title-location {
   margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 5em;
 }
 
 .flexbox-container {
   position: relative;
   width: 100%;
-  margin-top: 180px;
+  margin-top: 110px;
   height: 500px;
   z-index: 4;
-}
-
-.flexbox-item-1 {
-  max-width: 300px;
-  max-height: 280px;
-}
-
-img.profile {
-  border-radius: 50%;
-  max-width: 300px;
-  display: block;
-  margin: 70px 0 40px 50px;
 }
 
 .flexbox-item-2 {
   height: 500px;
   text-align: center;
   flex-direction: column;
-} 
+}
 
 #welcome-section h1 {
   font-size: 5vw;
   padding: 0px 100px 0px 100px;
-  font-family: "Bungee Shade", cursive;
+  font-family: "Patrick Hand SC", cursive;
   color: black;
 }
 
 #welcome-section h3 {
-  font-size: 2.4vw;
-  font-family: "Bungee Inline", cursive;
+  font-size: 2.7vw;
+  font-family: "Give You Glory", cursive;
   color: black;
+  text-shadow: -1.5px 1.5px 0 #fff;
 }
 
 #button-container {
@@ -60,19 +52,20 @@ i.fab.fa-linkedin-in,
 i.fab.fa-github,
 i.fas.fa-laptop-code,
 i.fab.fa-free-code-camp {
-  font-size: 3vw;
-  padding: 5px;
+  font-size: 2.7vw;
   margin: 0;
 }
 
 button.social {
-  padding: 7px;
-  height: 3em;
-  width: 3em;
+  padding: 5px;
+  height: 2.5em;
+  width: 2.5em;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 button.social:hover {
-  padding: 10px;
+  padding: 7px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 @keyframes slide {
@@ -91,8 +84,7 @@ button.social:hover {
   }
 
   #name h1,
-  #title-location
-  {
+  #title-location {
     margin-bottom: 20px;
   }
 }
@@ -104,8 +96,7 @@ button.social:hover {
   }
 
   #name h1,
-  #title-location
-  {
+  #title-location {
     margin-bottom: 20px;
   }
 }

@@ -1,22 +1,18 @@
 /* Both .bg in Welcome section and Project share the same background rules*/
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
+div.bg {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3dYUFvh3PUdwlhZWtZvYT97Aq12XNwXbeEqU7evCoud7qjqRHU5Dd3LkWpT6VhQ0bbHsgqYA8LG5hfGGHZvXqDh_ZNKMu-0OCv9V2jcxIiqz4nxxA3pQxskCpsfbrWWF_U9nKetfLwQgfcMEe0yVUaY=w1045-h641-no?authuser=0")
+    center center/cover no-repeat;
   z-index: -1;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
 }
 
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 4s;
-}
+div.bg2 {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3dxpKowqN1gY8BJ91m2yNwrrLjuwhHVBFyP5Yc4H3sERiNQCsCvxoOBIkIxwNIs4EhnxGD-cEqIDLK6iNSoM3h8os1TF4OkbMumCo-4LlyknDJoY27gp21CWudMJY1rukKTmQ1fyI7suZxXpYHRFH_D=w1120-h641-no?authuser=0")
+    center/cover no-repeat;
+  z-index: -1;
 
-.bg3 {
-  animation-duration: 5s;
+  width: 100%;
+  object-fit: contain;
 }
