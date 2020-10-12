@@ -79,11 +79,16 @@ button:hover {
 @media only screen and (max-width: 580px) {
   #brand {
     padding: 10px 0;
+    font-size: 4.6vw;
   }
 
   /* Will wrap buttons to a new line when screen is small */
   ul {
     flex-wrap: wrap;
+  }
+
+  a.nav-link {
+    font-size: 2.5vw;
   }
 }
 
