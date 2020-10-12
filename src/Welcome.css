@@ -13,13 +13,14 @@ button.social {
 }
 
 h1 {
+  padding: 20px;
   font-size: 5em;
 }
 
 .flexbox-container {
   position: relative;
   width: 100%;
-  margin-top: 140px;
+  margin-top: 120px;
   height: 500px;
   z-index: 4;
 }
