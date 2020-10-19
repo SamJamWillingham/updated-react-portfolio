@@ -27,3 +27,28 @@ h2 {
   font-size: 4.5vh;
   color: black;
 }
+
+.playlist {
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.playlist-wrapper {
+  position: relative;
+}
+
+.playlist-wrapper:before {
+  content: "\f025";
+  font-family: FontAwesome;
+  left: -200px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.219);
+  font-size: 280px;
+  transform: rotate(-35deg);
+  z-index: -10;
+}
